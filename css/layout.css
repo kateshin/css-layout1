@@ -2,15 +2,23 @@
 
 
 body {
+
 }
 
 .heading {
+  position: fixed;
+  left: 0px;
+  width: 100%;
 }
 
 .heading h1 {
 }
 
 .box {
+  float: left;
+  width: 30%;
+  margin: 10px;
+  padding: 10px;
 }
 
 .box:last-child {
@@ -20,10 +28,16 @@ body {
 }
 
 .box img {
+  width: 100%;
+
 }
 
 .box a.read-more {
 }
 
 .footer {
+  position: fixed;
+  bottom: 0px;
+  left:0px;
+  width: 100%;
 }
